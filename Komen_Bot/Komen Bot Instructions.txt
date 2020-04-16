@@ -1,0 +1,14 @@
+1) Install Python 2.7
+2) Install xlrd, xlwt, xlutils using pip (C:\Python27\Scripts\pip.exe install ___)
+   install bs4 using pip as well
+3) FILE FORMAT MUST BE IN .xls -- first column is topic code, second column is subject, third column is abstract [use the 
+third column to search]
+4) put the excel file on the desktop, open_workbook(' ---- put the file name here----')
+5) run the file
+
+#note - 
+Mesh terms are labels assigned to blocks of scientific texts used to describe what the paper is about, allowing automated indexing for scientific literature.
+
+this was a script I wrote during my time working for Thomson Reuter's IP&Science Department (before they were sold to onyx and baring). For one client we needed to identify mesh terms for a large number of abstracts (1000+) - leverageing python, beautiful soup and other libraries, I made a bot to automatically search this data for us. 
+
+The code wasn't gorgeous, but it got the job done!
